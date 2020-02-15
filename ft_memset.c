@@ -1,6 +1,6 @@
-#include "ftlib.h"
+#include "includes/libft.h"
 
-void * ft_memset (void * ptr, int value, size_t num)
+void	* ft_memset (void * ptr, int value, size_t num)
 {
 	char	*buf;
 	size_t	i;
@@ -14,4 +14,3 @@ void * ft_memset (void * ptr, int value, size_t num)
 	}
 	return ptr;	
 }
-
