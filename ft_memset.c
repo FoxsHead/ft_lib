@@ -1,10 +1,17 @@
+#include "ftlib.h"
 
-void * memset (void * ptr, int value, size_t num)
-
-int i = 0;
-while (i<=num)
+void * ft_memset (void * ptr, int value, size_t num)
 {
-        ptr[i]=value;
-        i++;
+	char	*buf;
+	size_t	i;
+
+	i = 0;
+	buf = ptr;
+	while (i < num)
+	{
+       		buf[i] = value;
+        	i++;
+	}
+	return ptr;	
 }
 
