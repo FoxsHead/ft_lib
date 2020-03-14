@@ -1,6 +1,6 @@
 #include "includes/libft.h"
 
-void	* ft_memcpy(void *dst, const void *src, size_t n)/*dst-sestination, src - source*/
+void	* ft_memcpy(void *dst, const void *src, size_t n)/*dst-destination, src - source*/
 {
 printf("function\n");	
 	char		*bdst;/*variable for transfer dst to bufer dst with char type, because integer wouldnt work*/
